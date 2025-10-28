@@ -16,7 +16,38 @@ body {
 header {
     background-color: rgba(194, 228, 188, 0.726);
 }
+/* Show dropdown on hover */
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
 
+/*  smooth animation */
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+}
+
+/* Prevent full-width issue */
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  left: auto;
+  right: auto;
+  min-width: 220px; /* adjust as needed */
+  top: 100%;
+  margin-top: 0.2rem;
+  z-index: 1000;
+}
+
+/* Ensure no body-wide flex expansion */
+.navbar-nav {
+  position: relative;
+}
 /* Smooth collapse */
 .collapse {
     transition: all 0.4s ease-in-out;
