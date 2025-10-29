@@ -146,7 +146,7 @@ add_btns.forEach(function (btn, index) {
     let card = btn.closest('.card');
 
     // extract data from that card
-    const name = card.querySelector('h2').innerText;
+    const name = card.querySelector('h4').innerText;
     const price = card.querySelector('span').innerText;
     const img = card.querySelector('img').getAttribute('src');
 
@@ -247,7 +247,7 @@ compare_btns.forEach(function (cbtn, index) {
     let card = cbtn.closest('.card');
 
     // extract data from that card
-    const name = card.querySelector('h2').innerText;
+    const name = card.querySelector('h4').innerText;
     const price = card.querySelector('span').innerText;
     const img = card.querySelector('img').getAttribute('src');
     let liElements = card.querySelectorAll("ul li");
