@@ -170,7 +170,7 @@ header {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.contact-heading h1 {
+.contact-heading h3 {
   position: relative;
   font-size: 4rem;
   z-index: 1;

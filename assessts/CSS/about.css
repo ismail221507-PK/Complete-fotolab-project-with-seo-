@@ -173,7 +173,7 @@ header {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.about-heading h1 {
+.about-heading h3 {
     position: relative;
     font-size: 4rem;
     z-index: 1;
