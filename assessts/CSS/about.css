@@ -173,7 +173,7 @@ header {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.about-heading h3 {
+.about-heading h4 {
     position: relative;
     font-size: 4rem;
     z-index: 1;
@@ -221,7 +221,7 @@ header {
     flex: 2 1 400px;
 }
 
-.about-section h2 {
+.about-section h3 {
     color: #198754;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -514,7 +514,7 @@ header {
     margin-bottom: 2.5rem;
 }
 
-.cta-section h2,
+.cta-section h1,
 .cta-section p {
     color: #fff;
 }
