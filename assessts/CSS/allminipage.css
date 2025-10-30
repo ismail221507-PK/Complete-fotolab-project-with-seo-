@@ -251,6 +251,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    padding: 0 1rem;
 }
 
 .main-banner::before {
@@ -275,7 +276,11 @@ header {
     color: rgb(164, 238, 164);
 
 }
-
+.main-banner p{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px #1D976C;
+}
 
 
 /* this is for card  */
